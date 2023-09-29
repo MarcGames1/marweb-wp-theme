@@ -1,0 +1,32 @@
+<!-- wp:template-part {"slug":"header","theme":"marweb","area":"header"} /-->
+
+<!-- wp:group {"gradient":"background-gradients","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-background-gradients-gradient-background has-background">
+    <!-- wp:heading {"textAlign":"center"} -->
+    <h2 class="wp-block-heading has-text-align-center">Blog Marweb</h2>
+    <!-- /wp:heading -->
+    
+    <!-- wp:query {"queryId":29,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":true}} -->
+    <div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+        <!-- wp:group {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}}},"layout":{"inherit":false}} -->
+        <div class="wp-block-group" style="padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px">
+            <!-- wp:cover {"useFeaturedImage":true,"dimRatio":50,"style":{"color":{"duotone":"var:preset|duotone|grayscale"}},"layout":{"type":"constrained"}} -->
+            <div class="wp-block-cover"><span aria-hidden="true"
+                class="wp-block-cover__background has-background-dim"></span>
+                <div class="wp-block-cover__inner-container">
+                    <!-- wp:post-title {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}}}} /-->
+                </div>
+            </div>
+            <!-- /wp:cover -->
+
+            <!-- wp:post-excerpt /-->
+            
+            <!-- wp:post-date /-->
+        </div>
+        <!-- /wp:group -->
+        <!-- /wp:post-template -->
+    </div>
+    <!-- /wp:query -->
+</div>
+<!-- /wp:group -->
+<!-- wp:template-part {"slug":"footer-default","theme":"marweb","area":"footer"} /-->
