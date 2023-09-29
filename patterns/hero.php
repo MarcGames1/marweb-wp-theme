@@ -34,23 +34,17 @@ $imagini = array(
                     reclame?</em></p>
             <!-- /wp:paragraph -->
 
-            <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-            <div class="wp-block-group"><!-- wp:buttons -->
-                <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"luminous-vivid-orange"} -->
-                    <div class="wp-block-button"><a
-                            class="wp-block-button__link has-luminous-vivid-orange-background-color has-background wp-element-button"
-                            href="https://calendly.com/alexandru-marcu/consultanta-gratuita?month=2023-09"
-                            target="_blank" rel="noreferrer noopener">Programeaza O Intalnire</a></div>
-                    <!-- /wp:button -->
-                </div>
-                <!-- /wp:buttons -->
+             <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<div class="wp-block-group"><!-- wp:buttons {"layout":{"type":"flex","verticalAlignment":"center","flexWrap":"nowrap"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"luminous-vivid-orange","width":100} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-luminous-vivid-orange-background-color has-background wp-element-button" href="https://calendly.com/alexandru-marcu/consultanta-gratuita?month=2023-09" target="_blank" rel="noreferrer noopener">Programeaza O Intalnire</a></div>
+<!-- /wp:button -->
 
-                <!-- wp:social-links {"openInNewTab":true,"showLabels":true,"layout":{"type":"flex","justifyContent":"center"}} -->
-                <ul class="wp-block-social-links has-visible-labels">
-                    <!-- wp:social-link {"url":"https://wa.me/message/D3AHVXM7YVGJK1","service":"whatsapp"} /--></ul>
-                <!-- /wp:social-links -->
-            </div>
-            <!-- /wp:group -->
+<!-- wp:button {"textAlign":"center","backgroundColor":"vivid-green-cyan","width":100} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-vivid-green-cyan-background-color has-background has-text-align-center wp-element-button" href="https://wa.me/message/D3AHVXM7YVGJK1" target="_blank" rel="noreferrer noopener"><span><img class="wp-image-276" style="width: 30px;" src="https://marweb.ro/wp-content/uploads/2023/09/whatsapp_3670051.png" alt="Whatsapp"> </span>Whatsapp</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
         </div>
         <!-- /wp:column -->
 
@@ -66,3 +60,4 @@ $imagini = array(
     <!-- /wp:columns -->
 </section>
 <!-- /wp:group -->
+
